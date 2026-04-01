@@ -12,7 +12,11 @@ export const heroData = {
   logo: 'rai-logo.png',
   title: `Hi, `,
   name: 'Railton Santos',
-  subtitles: ['Full Stack Dev', 'UI/UX & Motion Dev', 'Bug Hunter 🪲'],
+  subtitles: [
+    'Full Stack Dev',
+    'UI/UX & Motion Dev',
+    'Bug Hunter <img src="static/a82f5dae6ce7c0035ee61355c845f407/bug.png" height="50" style="margin-left: 10px;"/>',
+  ],
   cta: 'Open to opportunities',
 };
 
@@ -20,12 +24,12 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: `<b>Brazilian Full Stack Developer based in Brisbane-AU, focused on UI/UX, motion, and interactive digital experiences.</b>`,
-  paragraphTwo: `Extensive experience with WordPress development, building custom plugins, integrations, and performance-focused websites for a wide range of business needs.`,
-  paragraphThree: `Strong background in Shopify development, delivering scalable <b style="white-space: nowrap;">e-commerce</b> solutions with a focus on user experience, conversion, and performance.`,
+  paragraphTwo: `10+ years in software development, building scalable and performance-focused solutions for a wide range of business needs.`,
+  paragraphThree: `Strong background in <b>WordPress</b> and <b>Shopify</b> development, building custom plugins, integrations, and scalable <span style="white-space: nowrap;">e-commerce</span> solutions with a focus on user experience, conversion, and performance.`,
   paragraphFour: `<b>Experienced in building web and mobile applications using Laravel, React Native, Vue.js, and Node.js.</b>`,
   paragraphFive: `<b>Core stack includes PHP, JS/TypeScript, Vue.js, Node.js, MySQL, and MongoDB.</b>`,
-  paragraphSix: `Additional experience with <b>Python</b> and <b>C#</b> for backend services, APIs, and automation tasks, including integration with modern development workflows.`,
-  paragraphSeven: `Comfortable working with modern development workflows and <b>LLM-based tools</b> for refining, debugging and rapid prototyping, with a strong focus on performance, clean architecture, and user experience.`,
+  paragraphSix: `Additional work with <b>Python</b> and <b>C#</b> for backend services, APIs, and automation tasks, including integration with modern development workflows.`,
+  paragraphSeven: `Comfortable working with LLM-based tools for debugging, refactoring, and rapid prototyping, with focus on performance, clean architecture, and user experience.`,
   paragraphEight: `<b>I enjoy building cool stuff over a strong coffee <img height="20" src="/static/164fa633b66e3dad5f8f2159adfe9f5b/coffee.png"/></b>`,
   resume: 'RailtonSantos.pdf',
 };
@@ -63,7 +67,7 @@ export const projectsData = [
     img: 'iris-bridgestone.png',
     title: 'IRIS Auto - Bridgestone',
     info: 'Transparency App & Analytics Portal',
-    involvement: ['Front End', 'Back End'],
+    involvement: ['Front End', 'Back End', 'UI/UX'],
     info2:
       'Mobile app enabling technicians to record and send personalized vehicle inspection videos via SMS/email. Built with React Native for iOS and Android, featuring QR code authentication and streamlined video upload workflow.',
     info3:
@@ -138,7 +142,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Ready to build something? Great!',
+  cta: 'Ready to build something together? Great!',
   btn: 'Let’s Chat',
   email: 'railtondsanto@gmail.com',
 };
