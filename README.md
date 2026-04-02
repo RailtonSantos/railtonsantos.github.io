@@ -238,8 +238,8 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 
 ## Others versions 👥
 
-[Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
-[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
+[Simplefolio](https://github.com/cobidev/simplefolio)\
+[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember)
 
 ## Technologies used 🛠️
 
@@ -248,10 +248,6 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 - [React](https://es.reactjs.org/) - Front-End JavaScript library
 - [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
 - [Sass](https://sass-lang.com/documentation) - CSS extension language
-
-## Authors
-
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
 ## Status
 
