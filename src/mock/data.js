@@ -31,7 +31,7 @@ export const aboutData = {
   paragraphSix: `Additional experience with <b>Python</b> and <b>C#</b> for APIs, automation, and backend services, integrated into modern workflows.`,
   paragraphSeven: `Comfortable working with AI-assisted dev tools for debugging, refactoring, and rapid prototyping, with emphasis on UX, performance, and product quality.`,
   paragraphEight: `<b>I enjoy building cool stuff over a strong coffee <img height="20" src="/static/164fa633b66e3dad5f8f2159adfe9f5b/coffee.png"/></b>`,
-  resume: 'RailtonSantos.pdf',
+  resume: '../../documents/RailtonSantos-resume-cv.pdf#zoom=75',
 };
 
 // PROJECTS DATA
