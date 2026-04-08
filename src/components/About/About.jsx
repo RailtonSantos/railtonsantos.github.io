@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -20,6 +21,16 @@ const About = () => {
     paragraphEight,
     resume,
   } = about;
+
+  const data = useStaticQuery(graphql`
+    query($resume: String) {
+      file(sourceInstanceName: { eq: "documents" }, name: { eq: $resume }) {
+        publicURL
+      }
+    }
+  `);
+
+  const resumePath = data.file.publicURL;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -99,13 +110,13 @@ const About = () => {
                   dangerouslySetInnerHTML={{ __html: paragraphEight }}
                 />
 
-                {resume && (
+                {resumePath && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href={`${resumePath}#zoom=80`}
                     >
                       View Resume
                     </a>

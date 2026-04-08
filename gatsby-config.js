@@ -20,6 +20,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `documents`,
+        path: `${__dirname}/src/documents`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Railton Santos - Portfolio`,

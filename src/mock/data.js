@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import bug from '../images/bug.png';
 
 // HEAD DATA
 export const headData = {
@@ -14,8 +15,8 @@ export const heroData = {
   name: 'Railton Santos',
   subtitles: [
     'Full Stack Dev',
-    'UI/UX & Motion Dev',
-    'Bug Hunter <img src="static/a82f5dae6ce7c0035ee61355c845f407/bug.png" height="50" style="margin-left: 10px;"/>',
+    'UI/UX & Motion',
+    `Bug Hunter <img src="${bug}" height="50" style="margin-left: 10px;"/>`,
   ],
   cta: 'Open to opportunities',
 };
@@ -31,7 +32,7 @@ export const aboutData = {
   paragraphSix: `Additional experience with <b>Python</b> and <b>C#</b> for APIs, automation, and backend services, integrated into modern workflows.`,
   paragraphSeven: `Comfortable working with AI-assisted dev tools for debugging, refactoring, and rapid prototyping, with emphasis on UX, performance, and product quality.`,
   paragraphEight: `<b>I enjoy building cool stuff over a strong coffee <img height="20" src="/static/164fa633b66e3dad5f8f2159adfe9f5b/coffee.png"/></b>`,
-  resume: '../../documents/RailtonSantos-resume-cv.pdf#zoom=75',
+  resume: 'RailtonSantos-resume-cv',
 };
 
 // PROJECTS DATA
