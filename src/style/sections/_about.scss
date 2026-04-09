@@ -15,6 +15,12 @@
     clip-path: none;
   }
 
+  .profile-picture {
+    @include respond(phone) {
+      zoom: .8;
+    }
+  }
+
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;
@@ -29,6 +35,7 @@
       @include respond(tab-port) {
         padding-bottom: 6.4rem;
       }
+
       @include respond(tab-land) {
         height: 100%;
       }
@@ -51,6 +58,7 @@
           font-size: 1.5rem;
           text-align: center;
         }
+
         @include respond(phone) {
           font-size: 1.6rem;
           text-align: center;

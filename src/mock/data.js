@@ -13,11 +13,7 @@ export const heroData = {
   logo: 'rai-logo.png',
   title: `Hi, `,
   name: 'Railton Santos',
-  subtitles: [
-    'Full Stack Dev',
-    'UI/UX & Motion',
-    `Bug Hunter <img src="${bug}" height="50" style="margin-left: 10px;"/>`,
-  ],
+  subtitles: ['Full Stack Dev', 'UI/UX & Motion', `Bug Hunter <img src="${bug}"/>`],
   cta: 'Open to opportunities',
 };
 

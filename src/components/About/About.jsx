@@ -66,7 +66,7 @@ const About = () => {
                     easing: 'cubic-bezier(.03,.98,.52,.99)',
                   }}
                 >
-                  <div data-tilt className="thumbnail rounded">
+                  <div data-tilt className="profile-picture">
                     <AboutImg alt="profile picture" filename={img} />
                   </div>
                 </Tilt>

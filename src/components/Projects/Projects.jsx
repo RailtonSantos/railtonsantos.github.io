@@ -36,7 +36,7 @@ const Projects = () => {
             const { title, info, info2, info3, involvement, url, repo, img, id } = project;
 
             return (
-              <Row key={id} style={{ padding: `10rem 0` }}>
+              <Row key={id}>
                 <Col lg={4} sm={12}>
                   <Fade
                     left={isDesktop}
@@ -124,7 +124,7 @@ const Projects = () => {
 
           {/* See More / Show Less Button */}
           {projects.length > 4 && (
-            <Row style={{ padding: `2rem 0`, justifyContent: 'center' }}>
+            <Row>
               <Col lg={12} style={{ textAlign: 'center' }}>
                 <button
                   className="cta-btn cta-btn--hero"

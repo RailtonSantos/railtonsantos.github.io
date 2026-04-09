@@ -47,13 +47,20 @@
     }
 
     @include respond(phone) {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       line-height: 1.5;
     }
 
-    @include respond(phone-xs) {
-      font-size: 2.8rem;
+    img {
+      height: 50px;
+      margin-left: 10px;
+
+      @include respond(phone) {
+        margin-left: 5px;
+        height: 36px;
+      }
     }
+
   }
 
   .hero-cta {

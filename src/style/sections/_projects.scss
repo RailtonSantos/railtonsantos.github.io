@@ -16,10 +16,22 @@
     }
 
     .row {
-      margin-bottom: 8rem;
+      margin: {
+        top: 18rem;
+        bottom: 18rem;
+      }
 
-      @include respond(phone) {
-        margin-bottom: 4rem;
+      @media (max-width: 991px) {
+        flex-direction: column-reverse;
+
+        .thumbnail {
+          margin: 0 auto 2.5rem;
+        }
+
+        margin: {
+          top: 10rem;
+          bottom: 10rem;
+        }
       }
     }
 
@@ -94,7 +106,7 @@
 
       & .thumbnail {
         border: none;
-        max-width: 614px;
+        // max-width: 614px;
         margin-left: auto;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         transition: all 0.2s ease-out;
@@ -109,7 +121,7 @@
         @include respond(phone) {
           border: 1px solid #d2d2d2;
           box-shadow: none;
-          margin-bottom: 3.2rem;
+          margin-bottom: 2.5rem;
         }
       }
     }
